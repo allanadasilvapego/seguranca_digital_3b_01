@@ -33,7 +33,27 @@ body {
     text-align: center;
     margin-top: 80px;
 }
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+}
 
+.parametro-titulo{
+    font-family: var(--roboto-mono);
+    font-size: 28px;
+}
+
+.parametro-senha__titulo{
+    font-size: 24px;
+}
+
+.parametro-coluna__senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .conteudo-senha{
     margin-top: 80px;
     background: var(--fundo-senha);
